@@ -1,0 +1,17 @@
+#include<Eigen>
+#include<cmath>
+
+//Eigen counts from zero rather than from one like MatLab, thus the Matrix sizes should be one higher and we can fill the first element with zeroes when defining
+extern Eigen::MatrixXi ELEMENTS(1,3);
+extern Eigen::MatrixXd NODE_COORS(1,3);
+extern Eigen::MatrixXi EDGE_ELEMENTS(1,3);
+extern int NUM_NODES;
+extern int NUM_ELEMENTS;
+extern int NUM_EDGES;
+extern Eigen::MatrixXi LOCALEDGENODES(1,2);
+extern int NUM_DOFS;
+extern Eigen::MatrixXi EDGECONEXELEMS(1,2);
+extern int DOFLOCALNUM;
+extern Eigen::VectorXd ELL(1);
+extern Eigen::VectorXi LOCALVERTEX(1);
+extern Eigen::MatrixXi ELEMENT_PLS_MNS(1,3);

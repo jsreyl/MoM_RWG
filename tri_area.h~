@@ -1,0 +1,8 @@
+#ifndef TRIAREA_H
+#define TRIAREA_H
+
+#include<Eigen>
+
+double TriArea3D(Eigen::Vector3d r1; Eigen::Vector3d r2; Eigen::Vector3d r3);
+
+#endif

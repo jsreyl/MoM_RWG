@@ -1,0 +1,6 @@
+#include"GL_quad_rule.h"
+
+void GLQuadRule(int num_pts, int unit_lenth, Eigen::VectorXd& L_i, Eigen::VectorXd& W_i){
+  L_i=Eigen::VectorXd::Zero(num_pts);
+  W_i=Eigen::VectorXd::Zero(num_pts);
+}

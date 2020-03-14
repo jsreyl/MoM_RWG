@@ -1,0 +1,8 @@
+#ifndef TRIQUAD_H
+#define TRIQUAD_H
+
+#include<Eigen>
+
+void TriQuad(int n, Eigen::VectorXd w, Eigen::MatrixXd lambda);
+
+#endif

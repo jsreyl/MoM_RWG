@@ -1,0 +1,10 @@
+#ifndef TRIMESH3D_H
+#define TRIMESH3D_H
+#endif
+
+#include<Eigen>
+#include<cmath>
+#include<iostream>
+#include"g.h"
+
+void TriMesh3D(double a, double b, int Nx, int Ny, Eigen::MatrixXd x_nodes, Eigen::MatrixXd *y_nodes, Eigen::MatrixXd *z_nodes);
