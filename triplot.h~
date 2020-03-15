@@ -1,7 +1,0 @@
-#ifndef TRIPLOT_H
-#define TRIPLOT_H
-#endif
-
-#include"globalVars.h"
-
-void TriPlot(const char* filename);

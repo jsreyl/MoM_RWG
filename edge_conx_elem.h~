@@ -1,3 +1,0 @@
-#include"globalVars.h"
-
-void EdgeConxElem(Eigen::VectorXi dof_RWG);
